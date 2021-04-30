@@ -4,6 +4,7 @@ include("cmake/HunterGate.cmake")
 HunterGate(
     URL "@HUNTER_URL@"
     SHA1 "@HUNTER_SHA1@"
+    LOCAL
 )
 
 # Set the project name to your project name, my project isn't very descriptive
